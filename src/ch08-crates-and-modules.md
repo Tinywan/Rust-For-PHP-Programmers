@@ -1,4 +1,4 @@
-﻿# 08. 组织架构与模块系统：从 PSR-4 到 Rust Module Tree
+# 08. 组织架构与模块系统：从 PSR-4 到 Rust Module Tree
 
 > 本章节正在编撰中，敬请期待！
 

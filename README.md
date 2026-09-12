@@ -1,4 +1,4 @@
-﻿# Rust for PHP Programmers 🦀 🐘
+# Rust for PHP Programmers 🦀 🐘
 
 > 面向 PHP 开发者的 Rust 进阶指南：从动态弱类型到编译期安全，从 Shared-Nothing 到高并发常驻内存。
 

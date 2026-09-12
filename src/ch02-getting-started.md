@@ -1,4 +1,4 @@
-﻿# 02. 快速起步：Composer 与 Cargo 的双重视角
+# 02. 快速起步：Composer 与 Cargo 的双重视角
 
 > “如果你熟悉 Composer，恭喜你，你已经理解了 Cargo 80% 的工作机制。”
 

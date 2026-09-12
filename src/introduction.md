@@ -1,4 +1,4 @@
-﻿# 前言：写给 PHP 开发者的 Rust 进阶指南
+# 前言：写给 PHP 开发者的 Rust 进阶指南
 
 欢迎来到 **《Rust for PHP Programmers》**。
 
