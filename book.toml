@@ -1,0 +1,30 @@
+﻿[book]
+authors = ["Rust-For-PHP-Programmers Contributors"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+title = "Rust for PHP Programmers"
+description = "面向 PHP 开发者的 Rust 进阶指南：从动态弱类型到编译期安全，从 Shared-Nothing 到高并发常驻内存"
+
+[build]
+build-dir = "book"
+create-missing = true
+
+[output.html]
+git-repository-url = "https://github.com/tinywan/Rust-For-PHP-Programmers"
+edit-url-template = "https://github.com/tinywan/Rust-For-PHP-Programmers/edit/main/{path}"
+default-theme = "rust"
+preferred-dark-theme = "navy"
+mathjax-support = false
+copy-js = true
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
