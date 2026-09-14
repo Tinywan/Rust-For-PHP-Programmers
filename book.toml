@@ -1,4 +1,4 @@
-[book]
+﻿[book]
 authors = ["Rust-For-PHP-Programmers Contributors"]
 language = "zh-CN"
 src = "src"
@@ -16,6 +16,7 @@ default-theme = "rust"
 preferred-dark-theme = "navy"
 mathjax-support = false
 copy-js = true
+additional-css = ["custom.css"]
 
 [output.html.search]
 enable = true
