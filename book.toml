@@ -12,12 +12,6 @@ create-missing = true
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
 
-[preprocessor.alerts]
-command = "mdbook-alerts"
-
-[preprocessor.pagetoc]
-command = "mdbook-pagetoc"
-
 [output.html]
 git-repository-url = "https://github.com/tinywan/Rust-For-PHP-Programmers"
 edit-url-template = "https://github.com/tinywan/Rust-For-PHP-Programmers/edit/main/{path}"
@@ -25,6 +19,7 @@ default-theme = "rust"
 preferred-dark-theme = "navy"
 mathjax-support = false
 additional-css = ["custom.css"]
+additional-js = ["custom.js"]
 
 [output.html.search]
 enable = true

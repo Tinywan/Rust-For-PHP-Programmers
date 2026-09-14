@@ -35,17 +35,6 @@ jobs:
           mermaid_url="https://github.com/badboy/mdbook-mermaid/releases/download/${mermaid_tag}/mdbook-mermaid-${mermaid_tag}-x86_64-unknown-linux-gnu.tar.gz"
           curl -sSL "$mermaid_url" | tar -xz --directory=bin
           
-          # Install mdbook-alerts (for GitHub-style > [!TIP], > [!WARNING] cards)
-          alerts_tag=$(curl -s "https://api.github.com/repos/lambdalisue/rs-mdbook-alerts/releases/latest" | jq -r .tag_name)
-          alerts_url="https://github.com/lambdalisue/rs-mdbook-alerts/releases/download/${alerts_tag}/mdbook-alerts-x86_64-unknown-linux-gnu"
-          curl -sSL "$alerts_url" -o bin/mdbook-alerts
-          chmod +x bin/mdbook-alerts
-
-          # Install mdbook-pagetoc (for floating table of contents)
-          pagetoc_tag=$(curl -s "https://api.github.com/repos/slowsage/mdbook-pagetoc/releases/latest" | jq -r .tag_name)
-          pagetoc_url="https://github.com/slowsage/mdbook-pagetoc/releases/download/${pagetoc_tag}/mdbook-pagetoc-${pagetoc_tag}-x86_64-unknown-linux-gnu.tar.gz"
-          curl -sSL "$pagetoc_url" | tar -xz --directory=bin
-          
           echo "$(pwd)/bin" >> $GITHUB_PATH
 
       - name: Build with mdBook
