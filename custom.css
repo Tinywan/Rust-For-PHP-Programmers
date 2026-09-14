@@ -20,8 +20,21 @@
     margin-bottom: 1.5rem;
 }
 
-/* 优化代码块视觉 */
-pre {
+/* 优化普通代码块视觉，排除 mermaid 绘图容器 */
+pre:not(.mermaid) {
     border-radius: 6px;
     padding: 1rem !important;
+}
+
+/* Mermaid 容器美化 */
+pre.mermaid {
+    background: transparent !important;
+    border: none !important;
+    text-align: center;
+    padding: 1rem 0 !important;
+}
+
+pre.mermaid svg {
+    max-width: 100%;
+    height: auto;
 }
