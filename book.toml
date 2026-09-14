@@ -15,7 +15,6 @@ edit-url-template = "https://github.com/tinywan/Rust-For-PHP-Programmers/edit/ma
 default-theme = "rust"
 preferred-dark-theme = "navy"
 mathjax-support = false
-copy-js = true
 additional-css = ["custom.css"]
 
 [output.html.search]
