@@ -9,6 +9,9 @@ description = "面向 PHP 开发者的 Rust 进阶指南：从动态弱类型到
 build-dir = "book"
 create-missing = true
 
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
 [output.html]
 git-repository-url = "https://github.com/tinywan/Rust-For-PHP-Programmers"
 edit-url-template = "https://github.com/tinywan/Rust-For-PHP-Programmers/edit/main/{path}"
