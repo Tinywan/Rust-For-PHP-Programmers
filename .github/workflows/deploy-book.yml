@@ -51,7 +51,6 @@ jobs:
       - name: Build with mdBook
         run: |
           bin/mdbook-mermaid install .
-          bin/mdbook-pagetoc install .
           bin/mdbook build
 
       - name: Upload artifact
